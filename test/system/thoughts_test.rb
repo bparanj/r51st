@@ -4,6 +4,6 @@ class ThoughtsTest < ApplicationSystemTestCase
   test "visiting the index" do
     visit thoughts_url
 
-    # assert_selector "h1", text: "Thoughts"
+    assert_selector "h1", text: "Thoughts"
   end
 end
